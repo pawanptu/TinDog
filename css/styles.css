@@ -1,0 +1,166 @@
+body{
+    /* font-family: 'montserrat';*/
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+} 
+#title{
+    background-color:#ff4c68 ;
+    color: white;
+}
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-size: 70px;
+   
+}
+
+h3{
+    font-family: montserrat-bold;
+  }
+p{
+    color: rgb(119, 76, 76);
+}
+.container-fluid{
+    padding: 0% 0%;
+}
+ /* Navigation bar */
+ .navbar-brand{
+     font-family: 'ubuntu';
+     font-size: 4rem;
+    }
+
+.navbar{
+    padding-bottom: 2rem;
+}
+.download-button{
+    margin: 4% 1% 3% 0%;
+
+}
+.nav-link{
+    font-size: 2rem;
+    font-family: 'montserrat-light'; 
+}
+.nav-item{
+padding: 0px 20px;
+}
+.title{
+    text-align: center;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(-10deg);
+    top: 100px;
+   
+    position: relative;
+    
+}
+#features{
+    background-color: floralwhite;
+padding: 6% 6%;
+z-index: 1;
+position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 3%;
+}
+.icon{
+    color:rgb(54, 129, 54);
+     margin-bottom: 1rem;
+}
+.icon:hover{
+    color: rgb(40, 25, 49);
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color:rgb(114, 66, 74);
+    color: white;
+
+}
+.carousel-item{
+    padding:3%;
+}
+.testimonial-image{
+    border-radius: 100%;
+    background-size: 180px;
+    width: 500px;
+  height: 500px;
+}
+#press{
+    background-color:rgb(114, 66, 74);
+    text-align:center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width:25%;
+}
+.price{
+     color: rgb(158, 12, 216);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#pricing{
+    /* padding: 40px; */
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* <!-- Call to Action --> */ 
+
+#action{
+    padding-top: 3%;
+    text-align: center;
+    background-color: #c23879c7;
+   color: aliceblue;
+
+}
+
+#footer{
+    padding: 3% 0%;
+    text-align: center;
+}
+.social-icon{
+    margin: 0.5%;
+}
+
+/* --sign_in-- */
+.text-center{
+    text-align: center!important;
+
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+/* --jQuery-- */
+@media (max-width: 1000px)
+{
+    .title-image{
+        width: 60%;
+        transform: rotate(0);
+       
+        position: static;
+    }
+    
+    .sign_bt{
+        position: static;
+        width: 35%;
+        margin-left: 33%;
+        
+    }
+    .testimonial-image{
+        border-radius: 100%;
+        background-size: 160px;
+        width: 300px;
+      height: 300px;
+    }
+}
