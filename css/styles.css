@@ -23,6 +23,10 @@ h3{
 p{
     color: rgb(119, 76, 76);
 }
+.p_size{
+ font-size: 22px;
+}
+
 .container-fluid{
     padding: 0% 0%;
 }
@@ -162,5 +166,13 @@ position: relative;
         background-size: 160px;
         width: 300px;
       height: 300px;
+    }
+    .pricing_dog{
+        font-size: 35px;
+    }
+    .card-header{
+        position: static;
+        width: 65%;
+        margin-left: 18%;   
     }
 }
